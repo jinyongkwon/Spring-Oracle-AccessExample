@@ -14,5 +14,5 @@ GRANT CONNECT, DBA, RESUORCT TO twitter;
 ```
 - PK로 지정할 변수 위에 아래 코드를 걸어주어 시퀀스를 사용.
 ```
-@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "Post_ID_GENERATOR")
+@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "Entity_ID_GENERATOR")
 ```
